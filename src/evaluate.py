@@ -4,13 +4,19 @@ Writes outputs/predictions.csv and outputs/accuracy_by_category.csv.
 Run: python src/evaluate.py
 """
 import csv
+import sys
 from pathlib import Path
 
 from coder import load_coder
 
-VERBATIMS = Path("data/verbatims.csv")
-PRED_OUT = Path("outputs/predictions.csv")
-CAT_OUT = Path("outputs/accuracy_by_category.csv")
+if len(sys.argv) > 1 and sys.argv[1] == "heldout":
+    VERBATIMS = Path("data/verbatims_heldout.csv")
+    PRED_OUT = Path("outputs/heldout_predictions.csv")
+    CAT_OUT = Path("outputs/heldout_accuracy_by_category.csv")
+else:
+    VERBATIMS = Path("data/verbatims.csv")
+    PRED_OUT = Path("outputs/predictions.csv")
+    CAT_OUT = Path("outputs/accuracy_by_category.csv")
 
 
 def split_ids(cell):

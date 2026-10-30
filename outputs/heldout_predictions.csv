@@ -1,0 +1,66 @@
+id,verbatim,category,expected,predicted,predicted_names,how,correct
+H001,without nausea,negated,NONE,NONE,,negated,yes
+H002,runny tummy,lay,HP:0002014,NONE,,none,no
+H003,nausea absent,negated,NONE,HP:0002018,Nausea,contained,no
+H004,"no abdominal pain, no diarrhoea",negated,NONE,NONE,,negated|negated,yes
+H005,nausa,misspelt,HP:0002018,HP:0002018,Nausea,fuzzy:91,yes
+H006,itchy all over,lay,HP:0000989,NONE,,none,no
+H007,nil,unmappable,NONE,NONE,,negated,yes
+H008,insomnia and fatigue,multi,HP:0012378;HP:0100785,HP:0012378;HP:0100785,Fatigue; Insomnia,exact|exact,yes
+H009,"diarrhoea, vomiting",multi,HP:0002013;HP:0002014,HP:0002013;HP:0002014,Vomiting; Diarrhea,exact|exact,yes
+H010,constipatoin,misspelt,HP:0002019,HP:0002019,Constipation,fuzzy:92,yes
+H011,sleep disturbance,clean,HP:0002360,HP:0002360,Sleep disturbance,exact,yes
+H012,tiredness,clean,HP:0012378,HP:0012378,Fatigue,exact,yes
+H013,throwing up,lay,HP:0002013,HP:0002013,Vomiting,exact,yes
+H014,slight fever in the evening,context,HP:0001945,HP:0001945,Fever,contained,yes
+H015,hacking cough,lay,HP:0012735,HP:0033121,Barking cough,fuzzy:85,no
+H016,"rash, itching",multi,HP:0000988;HP:0000989,HP:0000988;HP:0000989,Skin rash; Pruritus,exact|exact,yes
+H017,ongoing cough for two weeks,context,HP:0012735,HP:0012735,Cough,contained,yes
+H018,mouth very dry,lay,HP:0000217,NONE,,none,no
+H019,bowels not opening,lay,HP:0002019,NONE,,negated,no
+H020,"dry mouth, constipation",multi,HP:0000217;HP:0002019,HP:0000217;HP:0002019,Xerostomia; Constipation,exact|exact,yes
+H021,feeling sick,lay,HP:0002018,NONE,,none,no
+H022,sleeplessness,clean,HP:0100785,NONE,,none,no
+H023,feaver,misspelt,HP:0001945,HP:0001945,Fever,fuzzy:91,yes
+H024,no vomiting,negated,NONE,NONE,,negated,yes
+H025,sore tummy,lay,HP:0002027,NONE,,none,no
+H026,sore muscles,lay,HP:0003326,NONE,,none,no
+H027,nausea and headache,multi,HP:0002018;HP:0002315,HP:0002018;HP:0002315,Nausea; Headache,exact|exact,yes
+H028,insomnnia,misspelt,HP:0100785,HP:0100785,Insomnia,fuzzy:94,yes
+H029,tired all the time,lay,HP:0012378,HP:0012378,Fatigue,contained,yes
+H030,check-up,unmappable,NONE,NONE,,none,yes
+H031,"headache, dizziness and nausea",multi,HP:0002018;HP:0002315;HP:0002321,HP:0002018;HP:0002315;HP:0002321,Nausea; Headache; Vertigo,exact|exact|exact,yes
+H032,palpitaions,misspelt,HP:0001962,HP:0001962,Palpitations,fuzzy:96,yes
+H033,denies headache but reports nausea,negated,HP:0002018,HP:0002018,Nausea,negated|contained,yes
+H034,"vomiting, fever",multi,HP:0001945;HP:0002013,HP:0001945;HP:0002013,Fever; Vomiting,exact|exact,yes
+H035,pyrexia,clean,HP:0001945,HP:0001945,Fever,exact,yes
+H036,emesis,clean,HP:0002013,HP:0002013,Vomiting,exact,yes
+H037,headache since yesterday,context,HP:0002315,HP:0002315,Headache,contained,yes
+H038,tachycardia,clean,HP:0001649,HP:0001649,Tachycardia,exact,yes
+H039,headake,misspelt,HP:0002315,HP:0002315,Headache,fuzzy:80,yes
+H040,fever and body ache,multi,HP:0001945;HP:0033047,HP:0001945;HP:0033047,Fever; Body ache,exact|exact,yes
+H041,dizzy spells,lay,HP:0002321,HP:0002321,Vertigo,fuzzy:96,yes
+H042,palpitations at night,context,HP:0001962,HP:0001962,Palpitations,contained,yes
+H043,body ache,clean,HP:0033047,HP:0033047,Body ache,exact,yes
+H044,no cough or fever,negated,NONE,NONE,,negated,yes
+H045,vomiting after meals,context,HP:0002013,HP:0002013,Vomiting,contained,yes
+H046,cephalalgia,clean,HP:0002315,NONE,,none,no
+H047,diarreah,misspelt,HP:0002014,HP:0002014,Diarrhea,fuzzy:88,yes
+H048,cant sleep,lay,HP:0100785,NONE,,none,no
+H049,patient comfortable,unmappable,NONE,NONE,,none,yes
+H050,palpitation,clean,HP:0001962,HP:0001962,Palpitations,fuzzy:96,yes
+H051,refused to answer,unmappable,NONE,NONE,,none,yes
+H052,denies fever,negated,NONE,NONE,,negated,yes
+H053,constipation x 3 days,context,HP:0002019,HP:0002019,Constipation,contained,yes
+H054,back pain on lifting,context,HP:0003418,HP:0003418,Back pain,contained,yes
+H055,skin rashes,lay,HP:0000988,HP:0000988,Skin rash,fuzzy:90,yes
+H056,as per previous visit,unmappable,NONE,NONE,,none,yes
+H057,no headache reported,negated,NONE,NONE,,negated,yes
+H058,fatique,misspelt,HP:0012378,HP:0012378,Fatigue,fuzzy:86,yes
+H059,vomitng,misspelt,HP:0002013,HP:0002013,Vomiting,fuzzy:93,yes
+H060,complains of abdominal pain,context,HP:0002027,HP:0002027,Abdominal pain,contained,yes
+H061,denied dizziness,negated,NONE,NONE,,negated,yes
+H062,running a temperature,lay,HP:0001945,NONE,,none,no
+H063,pain in my back,lay,HP:0003418,HP:0012531,Pain,contained,no
+H064,all fine,unmappable,NONE,HP:0030033,Small finger,fuzzy:80,no
+H065,no rash but itching,negated,HP:0000989,HP:0000989,Pruritus,negated|exact,yes
