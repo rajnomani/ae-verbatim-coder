@@ -1,0 +1,9 @@
+category,phrases,correct,percent_correct
+context,12,12,100.0
+lay,33,10,30.3
+negated,13,13,100.0
+multi,12,12,100.0
+clean,34,34,100.0
+misspelt,19,19,100.0
+unmappable,10,10,100.0
+ALL,133,110,82.7

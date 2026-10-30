@@ -1,0 +1,66 @@
+id,verbatim,expected_ids,category
+H001,without nausea,NONE,negated
+H002,runny tummy,HP:0002014,lay
+H003,nausea absent,NONE,negated
+H004,"no abdominal pain, no diarrhoea",NONE,negated
+H005,nausa,HP:0002018,misspelt
+H006,itchy all over,HP:0000989,lay
+H007,nil,NONE,unmappable
+H008,insomnia and fatigue,HP:0100785;HP:0012378,multi
+H009,"diarrhoea, vomiting",HP:0002014;HP:0002013,multi
+H010,constipatoin,HP:0002019,misspelt
+H011,sleep disturbance,HP:0002360,clean
+H012,tiredness,HP:0012378,clean
+H013,throwing up,HP:0002013,lay
+H014,slight fever in the evening,HP:0001945,context
+H015,hacking cough,HP:0012735,lay
+H016,"rash, itching",HP:0000988;HP:0000989,multi
+H017,ongoing cough for two weeks,HP:0012735,context
+H018,mouth very dry,HP:0000217,lay
+H019,bowels not opening,HP:0002019,lay
+H020,"dry mouth, constipation",HP:0000217;HP:0002019,multi
+H021,feeling sick,HP:0002018,lay
+H022,sleeplessness,HP:0100785,clean
+H023,feaver,HP:0001945,misspelt
+H024,no vomiting,NONE,negated
+H025,sore tummy,HP:0002027,lay
+H026,sore muscles,HP:0003326,lay
+H027,nausea and headache,HP:0002018;HP:0002315,multi
+H028,insomnnia,HP:0100785,misspelt
+H029,tired all the time,HP:0012378,lay
+H030,check-up,NONE,unmappable
+H031,"headache, dizziness and nausea",HP:0002315;HP:0002321;HP:0002018,multi
+H032,palpitaions,HP:0001962,misspelt
+H033,denies headache but reports nausea,HP:0002018,negated
+H034,"vomiting, fever",HP:0002013;HP:0001945,multi
+H035,pyrexia,HP:0001945,clean
+H036,emesis,HP:0002013,clean
+H037,headache since yesterday,HP:0002315,context
+H038,tachycardia,HP:0001649,clean
+H039,headake,HP:0002315,misspelt
+H040,fever and body ache,HP:0001945;HP:0033047,multi
+H041,dizzy spells,HP:0002321,lay
+H042,palpitations at night,HP:0001962,context
+H043,body ache,HP:0033047,clean
+H044,no cough or fever,NONE,negated
+H045,vomiting after meals,HP:0002013,context
+H046,cephalalgia,HP:0002315,clean
+H047,diarreah,HP:0002014,misspelt
+H048,cant sleep,HP:0100785,lay
+H049,patient comfortable,NONE,unmappable
+H050,palpitation,HP:0001962,clean
+H051,refused to answer,NONE,unmappable
+H052,denies fever,NONE,negated
+H053,constipation x 3 days,HP:0002019,context
+H054,back pain on lifting,HP:0003418,context
+H055,skin rashes,HP:0000988,lay
+H056,as per previous visit,NONE,unmappable
+H057,no headache reported,NONE,negated
+H058,fatique,HP:0012378,misspelt
+H059,vomitng,HP:0002013,misspelt
+H060,complains of abdominal pain,HP:0002027,context
+H061,denied dizziness,NONE,negated
+H062,running a temperature,HP:0001945,lay
+H063,pain in my back,HP:0003418,lay
+H064,all fine,NONE,unmappable
+H065,no rash but itching,HP:0000989,negated

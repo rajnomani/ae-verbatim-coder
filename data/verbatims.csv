@@ -1,0 +1,134 @@
+id,verbatim,expected_ids,category
+V001,patient reports nausea,HP:0002018,context
+V002,mouth felt dry,HP:0000217,lay
+V003,no nausea,NONE,negated
+V004,heart racing,HP:0001649,lay
+V005,"nausea, vomiting",HP:0002018;HP:0002013,multi
+V006,no complaints of dizziness,NONE,negated
+V007,felt heart pounding,HP:0001962,lay
+V008,diarrhoea x2 days,HP:0002014,context
+V009,  NAUSEA.,HP:0002018,clean
+V010,abdominal pain,HP:0002027,clean
+V011,fever with cough,HP:0001945;HP:0012735,multi
+V012,vomitting,HP:0002013,misspelt
+V013,pain in head,HP:0002315,lay
+V014,"no vomiting, but nausea",HP:0002018,negated
+V015,bakc pain,HP:0003418,misspelt
+V016,routine visit,NONE,unmappable
+V017,rash,HP:0000988,clean
+V018,no rash noted,NONE,negated
+V019,backache,HP:0003418,lay
+V020,PALPITATIONS,HP:0001962,clean
+V021,vomiting,HP:0002013,clean
+V022,pt had vomiting,HP:0002013,context
+V023,dry mouht,HP:0000217,misspelt
+V024,constipaton,HP:0002019,misspelt
+V025,skin rahs,HP:0000988,misspelt
+V026,denies cough; reports fatigue,HP:0012378,negated
+V027,Skin rash,HP:0000988,clean
+V028,couhg,HP:0012735,misspelt
+V029,moderate abdominal pain,HP:0002027,context
+V030,nausea since morning,HP:0002018,context
+V031,rash on both arms,HP:0000988,context
+V032,dizziness on standing,HP:0002321,context
+V033,no energy,HP:0012378,lay
+V034,dizzyness,HP:0002321,misspelt
+V035,Myalgia.,HP:0003326,clean
+V036,abdomnal pain,HP:0002027,misspelt
+V037,pruritus,HP:0000989,clean
+V038,no diarrhoea,NONE,negated
+V039,insomnia,HP:0100785,clean
+V040,felt very tired,HP:0012378,lay
+V041,nausia,HP:0002018,misspelt
+V042,fevr,HP:0001945,misspelt
+V043,nausea,HP:0002018,clean
+V044,palpatations,HP:0001962,misspelt
+V045,itchy skin,HP:0000989,lay
+V046,FATIGUE,HP:0012378,clean
+V047,loose motions,HP:0002014,lay
+V048,dizziness,HP:0002321,clean
+V049,feverish,HP:0001945,lay
+V050,xerostomia,HP:0000217,clean
+V051,itching,HP:0000989,lay
+V052,no fever but headache,HP:0002315,negated
+V053,kept coughing at night,HP:0012735,lay
+V054,c/o cough,HP:0012735,context
+V055,headache and nausea,HP:0002315;HP:0002018,multi
+V056,threw up,HP:0002013,lay
+V057,INSOMNIA,HP:0100785,clean
+V058,queasy,HP:0002018,lay
+V059,high temperature,HP:0001945,lay
+V060,dry mouth,HP:0000217,clean
+V061,Constipation,HP:0002019,clean
+V062,nauseaa,HP:0002018,misspelt
+V063,insomnia for one week,HP:0100785,context
+V064,coughing a lot,HP:0012735,lay
+V065,mild headache after dose,HP:0002315,context
+V066,FEVER,HP:0001945,clean
+V067,none,NONE,unmappable
+V068,N/A,NONE,unmappable
+V069,watery stools,HP:0002014,lay
+V070,head was pounding,HP:0002315,lay
+V071,fatgue,HP:0012378,misspelt
+V072,no fever,NONE,negated
+V073,vomited twice,HP:0002013,lay
+V074,felt dizzy,HP:0002321,lay
+V075,back pain,HP:0003418,clean
+V076,rash and pruritus,HP:0000988;HP:0000989,multi
+V077,"cough, fatigue and fever",HP:0012735;HP:0012378;HP:0001945,multi
+V078,felt off,NONE,unmappable
+V079,without vomiting,NONE,negated
+V080,unknown,NONE,unmappable
+V081,pruritis,HP:0000989,misspelt
+V082,no complaints,NONE,unmappable
+V083,muscle pain,HP:0003326,lay
+V084,severe fatigue for 3 days,HP:0012378,context
+V085,?,NONE,unmappable
+V086,COUGH,HP:0012735,clean
+V087,Pruritus,HP:0000989,clean
+V088,fever 38.5 C,HP:0001945,context
+V089,headach,HP:0002315,misspelt
+V090,fatigue and insomnia,HP:0012378;HP:0100785,multi
+V091,vomiting and diarrhoea,HP:0002013;HP:0002014,multi
+V092,stomach ache,HP:0002027,lay
+V093,patient well,NONE,unmappable
+V094,denies abdominal pain,NONE,negated
+V095,diarhoea,HP:0002014,misspelt
+V096,ABDOMINAL PAIN,HP:0002027,clean
+V097,constipated,HP:0002019,lay
+V098,Diarrhea,HP:0002014,clean
+V099,dry mouth and palpitations,HP:0000217;HP:0001962,multi
+V100,headache,HP:0002315,clean
+V101,myalgea,HP:0003326,misspelt
+V102,"dizziness, headache",HP:0002321;HP:0002315,multi
+V103,unable to sleep,HP:0100785,lay
+V104,denies headache,NONE,negated
+V105,see notes,NONE,unmappable
+V106,myalgia and fever,HP:0003326;HP:0001945,multi
+V107,back hurts,HP:0003418,lay
+V108,myalgia,HP:0003326,clean
+V109,Vomiting.,HP:0002013,clean
+V110,could not pass stool,HP:0002019,lay
+V111,constipation and back pain,HP:0002019;HP:0003418,multi
+V112,same as before,NONE,unmappable
+V113,skin broke out,HP:0000988,lay
+V114,tummy pain,HP:0002027,lay
+V115,negative for palpitations,NONE,negated
+V116,fever,HP:0001945,clean
+V117,fatigue,HP:0012378,clean
+V118,red spots on arms and chest,HP:0000988,lay
+V119,felt sick to my stomach,HP:0002018,lay
+V120,vertigo,HP:0002321,clean
+V121,diarrhoea,HP:0002014,clean
+V122,BACK PAIN,HP:0003418,clean
+V123,room was spinning,HP:0002321,lay
+V124,absence of cough,NONE,negated
+V125,Headaches,HP:0002315,clean
+V126,trouble sleeping,HP:0002360,lay
+V127,insomia,HP:0100785,misspelt
+V128,palpitations,HP:0001962,clean
+V129,constipation,HP:0002019,clean
+V130,cough,HP:0012735,clean
+V131,diarrhoea and abdominal pain,HP:0002014;HP:0002027,multi
+V132,hedache,HP:0002315,misspelt
+V133,body aches,HP:0033047,lay

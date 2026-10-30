@@ -1,0 +1,134 @@
+id,verbatim,category,expected,predicted,predicted_names,how,correct
+V001,patient reports nausea,context,HP:0002018,HP:0002018,Nausea,contained,yes
+V002,mouth felt dry,lay,HP:0000217,NONE,,none,no
+V003,no nausea,negated,NONE,NONE,,negated,yes
+V004,heart racing,lay,HP:0001649,HP:0001649,Tachycardia,exact,yes
+V005,"nausea, vomiting",multi,HP:0002013;HP:0002018,HP:0002013;HP:0002018,Vomiting; Nausea,exact|exact,yes
+V006,no complaints of dizziness,negated,NONE,NONE,,negated,yes
+V007,felt heart pounding,lay,HP:0001962,NONE,,none,no
+V008,diarrhoea x2 days,context,HP:0002014,HP:0002014,Diarrhea,contained,yes
+V009,  NAUSEA.,clean,HP:0002018,HP:0002018,Nausea,exact,yes
+V010,abdominal pain,clean,HP:0002027,HP:0002027,Abdominal pain,exact,yes
+V011,fever with cough,multi,HP:0001945;HP:0012735,HP:0001945;HP:0012735,Fever; Cough,exact|exact,yes
+V012,vomitting,misspelt,HP:0002013,HP:0002013,Vomiting,fuzzy:94,yes
+V013,pain in head,lay,HP:0002315,HP:0012531,Pain,contained,no
+V014,"no vomiting, but nausea",negated,HP:0002018,HP:0002018,Nausea,negated|exact,yes
+V015,bakc pain,misspelt,HP:0003418,HP:0003418,Back pain,fuzzy:89,yes
+V016,routine visit,unmappable,NONE,NONE,,none,yes
+V017,rash,clean,HP:0000988,HP:0000988,Skin rash,exact,yes
+V018,no rash noted,negated,NONE,NONE,,negated,yes
+V019,backache,lay,HP:0003418,NONE,,none,no
+V020,PALPITATIONS,clean,HP:0001962,HP:0001962,Palpitations,exact,yes
+V021,vomiting,clean,HP:0002013,HP:0002013,Vomiting,exact,yes
+V022,pt had vomiting,context,HP:0002013,HP:0002013,Vomiting,contained,yes
+V023,dry mouht,misspelt,HP:0000217,HP:0000217,Xerostomia,fuzzy:89,yes
+V024,constipaton,misspelt,HP:0002019,HP:0002019,Constipation,fuzzy:96,yes
+V025,skin rahs,misspelt,HP:0000988,HP:0000988,Skin rash,fuzzy:89,yes
+V026,denies cough; reports fatigue,negated,HP:0012378,HP:0012378,Fatigue,negated|contained,yes
+V027,Skin rash,clean,HP:0000988,HP:0000988,Skin rash,exact,yes
+V028,couhg,misspelt,HP:0012735,HP:0012735,Cough,fuzzy:80,yes
+V029,moderate abdominal pain,context,HP:0002027,HP:0002027,Abdominal pain,contained,yes
+V030,nausea since morning,context,HP:0002018,HP:0002018,Nausea,contained,yes
+V031,rash on both arms,context,HP:0000988,HP:0000988,Skin rash,contained,yes
+V032,dizziness on standing,context,HP:0002321,HP:0002321,Vertigo,contained,yes
+V033,no energy,lay,HP:0012378,NONE,,negated,no
+V034,dizzyness,misspelt,HP:0002321,HP:0002321,Vertigo,fuzzy:89,yes
+V035,Myalgia.,clean,HP:0003326,HP:0003326,Myalgia,exact,yes
+V036,abdomnal pain,misspelt,HP:0002027,HP:0002027,Abdominal pain,fuzzy:96,yes
+V037,pruritus,clean,HP:0000989,HP:0000989,Pruritus,exact,yes
+V038,no diarrhoea,negated,NONE,NONE,,negated,yes
+V039,insomnia,clean,HP:0100785,HP:0100785,Insomnia,exact,yes
+V040,felt very tired,lay,HP:0012378,HP:0012378,Fatigue,contained,yes
+V041,nausia,misspelt,HP:0002018,HP:0002018,Nausea,fuzzy:83,yes
+V042,fevr,misspelt,HP:0001945,HP:0001945,Fever,fuzzy:89,yes
+V043,nausea,clean,HP:0002018,HP:0002018,Nausea,exact,yes
+V044,palpatations,misspelt,HP:0001962,HP:0001962,Palpitations,fuzzy:92,yes
+V045,itchy skin,lay,HP:0000989,HP:0000989,Pruritus,exact,yes
+V046,FATIGUE,clean,HP:0012378,HP:0012378,Fatigue,exact,yes
+V047,loose motions,lay,HP:0002014,NONE,,none,no
+V048,dizziness,clean,HP:0002321,HP:0002321,Vertigo,exact,yes
+V049,feverish,lay,HP:0001945,NONE,,none,no
+V050,xerostomia,clean,HP:0000217,HP:0000217,Xerostomia,exact,yes
+V051,itching,lay,HP:0000989,HP:0000989,Pruritus,exact,yes
+V052,no fever but headache,negated,HP:0002315,HP:0002315,Headache,negated|exact,yes
+V053,kept coughing at night,lay,HP:0012735,HP:0012735,Cough,contained,yes
+V054,c/o cough,context,HP:0012735,HP:0012735,Cough,none|contained,yes
+V055,headache and nausea,multi,HP:0002018;HP:0002315,HP:0002018;HP:0002315,Nausea; Headache,exact|exact,yes
+V056,threw up,lay,HP:0002013,NONE,,none,no
+V057,INSOMNIA,clean,HP:0100785,HP:0100785,Insomnia,exact,yes
+V058,queasy,lay,HP:0002018,NONE,,none,no
+V059,high temperature,lay,HP:0001945,NONE,,none,no
+V060,dry mouth,clean,HP:0000217,HP:0000217,Xerostomia,exact,yes
+V061,Constipation,clean,HP:0002019,HP:0002019,Constipation,exact,yes
+V062,nauseaa,misspelt,HP:0002018,HP:0002018,Nausea,fuzzy:92,yes
+V063,insomnia for one week,context,HP:0100785,HP:0100785,Insomnia,contained,yes
+V064,coughing a lot,lay,HP:0012735,HP:0012735,Cough,contained,yes
+V065,mild headache after dose,context,HP:0002315,HP:0002315,Headache,contained,yes
+V066,FEVER,clean,HP:0001945,HP:0001945,Fever,exact,yes
+V067,none,unmappable,NONE,NONE,,none,yes
+V068,N/A,unmappable,NONE,NONE,,none|none,yes
+V069,watery stools,lay,HP:0002014,HP:0002014,Diarrhea,fuzzy:96,yes
+V070,head was pounding,lay,HP:0002315,NONE,,none,no
+V071,fatgue,misspelt,HP:0012378,HP:0012378,Fatigue,fuzzy:92,yes
+V072,no fever,negated,NONE,NONE,,negated,yes
+V073,vomited twice,lay,HP:0002013,NONE,,none,no
+V074,felt dizzy,lay,HP:0002321,NONE,,none,no
+V075,back pain,clean,HP:0003418,HP:0003418,Back pain,exact,yes
+V076,rash and pruritus,multi,HP:0000988;HP:0000989,HP:0000988;HP:0000989,Skin rash; Pruritus,exact|exact,yes
+V077,"cough, fatigue and fever",multi,HP:0001945;HP:0012378;HP:0012735,HP:0001945;HP:0012378;HP:0012735,Fever; Fatigue; Cough,exact|exact|exact,yes
+V078,felt off,unmappable,NONE,NONE,,none,yes
+V079,without vomiting,negated,NONE,NONE,,negated,yes
+V080,unknown,unmappable,NONE,NONE,,none,yes
+V081,pruritis,misspelt,HP:0000989,HP:0000989,Pruritus,fuzzy:88,yes
+V082,no complaints,unmappable,NONE,NONE,,negated,yes
+V083,muscle pain,lay,HP:0003326,HP:0003326,Myalgia,exact,yes
+V084,severe fatigue for 3 days,context,HP:0012378,HP:0012378,Fatigue,contained,yes
+V085,?,unmappable,NONE,NONE,,empty,yes
+V086,COUGH,clean,HP:0012735,HP:0012735,Cough,exact,yes
+V087,Pruritus,clean,HP:0000989,HP:0000989,Pruritus,exact,yes
+V088,fever 38.5 C,context,HP:0001945,HP:0001945,Fever,contained,yes
+V089,headach,misspelt,HP:0002315,HP:0002315,Headache,fuzzy:93,yes
+V090,fatigue and insomnia,multi,HP:0012378;HP:0100785,HP:0012378;HP:0100785,Fatigue; Insomnia,exact|exact,yes
+V091,vomiting and diarrhoea,multi,HP:0002013;HP:0002014,HP:0002013;HP:0002014,Vomiting; Diarrhea,exact|exact,yes
+V092,stomach ache,lay,HP:0002027,NONE,,none,no
+V093,patient well,unmappable,NONE,NONE,,none,yes
+V094,denies abdominal pain,negated,NONE,NONE,,negated,yes
+V095,diarhoea,misspelt,HP:0002014,HP:0002014,Diarrhea,fuzzy:94,yes
+V096,ABDOMINAL PAIN,clean,HP:0002027,HP:0002027,Abdominal pain,exact,yes
+V097,constipated,lay,HP:0002019,NONE,,none,no
+V098,Diarrhea,clean,HP:0002014,HP:0002014,Diarrhea,exact,yes
+V099,dry mouth and palpitations,multi,HP:0000217;HP:0001962,HP:0000217;HP:0001962,Xerostomia; Palpitations,exact|exact,yes
+V100,headache,clean,HP:0002315,HP:0002315,Headache,exact,yes
+V101,myalgea,misspelt,HP:0003326,HP:0003326,Myalgia,fuzzy:86,yes
+V102,"dizziness, headache",multi,HP:0002315;HP:0002321,HP:0002315;HP:0002321,Headache; Vertigo,exact|exact,yes
+V103,unable to sleep,lay,HP:0100785,NONE,,none,no
+V104,denies headache,negated,NONE,NONE,,negated,yes
+V105,see notes,unmappable,NONE,NONE,,none,yes
+V106,myalgia and fever,multi,HP:0001945;HP:0003326,HP:0001945;HP:0003326,Fever; Myalgia,exact|exact,yes
+V107,back hurts,lay,HP:0003418,NONE,,none,no
+V108,myalgia,clean,HP:0003326,HP:0003326,Myalgia,exact,yes
+V109,Vomiting.,clean,HP:0002013,HP:0002013,Vomiting,exact,yes
+V110,could not pass stool,lay,HP:0002019,NONE,,negated,no
+V111,constipation and back pain,multi,HP:0002019;HP:0003418,HP:0002019;HP:0003418,Constipation; Back pain,exact|exact,yes
+V112,same as before,unmappable,NONE,NONE,,none,yes
+V113,skin broke out,lay,HP:0000988,NONE,,none,no
+V114,tummy pain,lay,HP:0002027,HP:0012531,Pain,contained,no
+V115,negative for palpitations,negated,NONE,NONE,,negated,yes
+V116,fever,clean,HP:0001945,HP:0001945,Fever,exact,yes
+V117,fatigue,clean,HP:0012378,HP:0012378,Fatigue,exact,yes
+V118,red spots on arms and chest,lay,HP:0000988,NONE,,none|none,no
+V119,felt sick to my stomach,lay,HP:0002018,NONE,,none,no
+V120,vertigo,clean,HP:0002321,HP:0002321,Vertigo,exact,yes
+V121,diarrhoea,clean,HP:0002014,HP:0002014,Diarrhea,exact,yes
+V122,BACK PAIN,clean,HP:0003418,HP:0003418,Back pain,exact,yes
+V123,room was spinning,lay,HP:0002321,HP:5200069,Spinning,contained,no
+V124,absence of cough,negated,NONE,NONE,,negated,yes
+V125,Headaches,clean,HP:0002315,HP:0002315,Headache,exact,yes
+V126,trouble sleeping,lay,HP:0002360,HP:0002360,Sleep disturbance,exact,yes
+V127,insomia,misspelt,HP:0100785,HP:0100785,Insomnia,fuzzy:93,yes
+V128,palpitations,clean,HP:0001962,HP:0001962,Palpitations,exact,yes
+V129,constipation,clean,HP:0002019,HP:0002019,Constipation,exact,yes
+V130,cough,clean,HP:0012735,HP:0012735,Cough,exact,yes
+V131,diarrhoea and abdominal pain,multi,HP:0002014;HP:0002027,HP:0002014;HP:0002027,Diarrhea; Abdominal pain,exact|exact,yes
+V132,hedache,misspelt,HP:0002315,HP:0002315,Headache,fuzzy:93,yes
+V133,body aches,lay,HP:0033047,HP:0033047,Body ache,fuzzy:95,yes
